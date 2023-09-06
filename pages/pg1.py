@@ -1,6 +1,6 @@
 import dash
 from dash import dcc, html
-import streamlit as st
+# import streamlit as st
 
 dash.register_page(__name__, path='/', name='Home')
 
