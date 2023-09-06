@@ -1,0 +1,8 @@
+pandas;
+gunicorn;
+dash;
+dash_bootstrap_components;
+requests;
+numpy;
+plotly;
+pyarrow;
