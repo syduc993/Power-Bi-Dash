@@ -2,7 +2,7 @@ import dash
 from dash import dcc, html
 # import streamlit as st
 
-dash.register_page(__name__, path='/', name='Home')
+dash.register_page(__name__, path='/', name='Tỉ lệ bán giảm giá')
 
-layout = html.Iframe(src='https://app.powerbi.com/view?r=eyJrIjoiY2Y2YWVkMmItYWU2Yi00OGNjLWE3MmQtMTg4MDM3MGIwY2NlIiwidCI6IjkwYjY0ZWVlLTg0M2UtNDBiZi04ODZkLWZjMmMxNDk2NjE3NiIsImMiOjEwfQ%3D%3D',
+layout = html.Iframe(src='https://app.powerbi.com/view?r=eyJrIjoiZTg5NTU5YTEtNzI4MC00NjI5LWE1NTUtZWM3ZjZiMjU5YTVmIiwidCI6IjkwYjY0ZWVlLTg0M2UtNDBiZi04ODZkLWZjMmMxNDk2NjE3NiIsImMiOjEwfQ%3D%3D',
                          style={'height': '100vh', 'width': '100%'})

@@ -39,7 +39,7 @@ sidebar = html.Div(
 
 app.layout = dbc.Container([
     dbc.Row([
-        dbc.Col(html.Div("Biểu đồ nhập, bán, hủy & tồn sản phẩm",
+        dbc.Col(html.Div("Tổng hợp báo cáo Procurement",
                          style={'fontSize':50, 'textAlign':'center'}))
     ]),
 
