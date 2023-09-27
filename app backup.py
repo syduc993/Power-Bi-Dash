@@ -1,16 +1,10 @@
 import dash
 from dash import html, dcc
 import dash_bootstrap_components as dbc
-from dash.dependencies import Input, Output
-import dash_auth
 
-VALID_USERNAME_PASSWORD_PAIRS = [
-    ['admin', '123'],
-    ['add', 'abc']
-]
 
 app = dash.Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.SPACELAB])
-auth = dash_auth.BasicAuth(app, VALID_USERNAME_PASSWORD_PAIRS)
+
 # server = app.server
 
 SIDEBAR_STYLE = {
