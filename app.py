@@ -44,6 +44,7 @@ sidebar = html.Div(
                     is_open=False,  # Đặt mặc định là False để ẩn Procurement Collapse ban đầu
                 ),
                 dbc.NavLink("Store", href="/store/item1", active="exact"),
+                dbc.NavLink("FC Lunar new year", href="/fcnewyear", active="exact"),
             ],
             vertical=True,
             pills=True,
