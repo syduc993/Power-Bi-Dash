@@ -4,7 +4,7 @@ import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output, State
 import dash_auth
 
-app = dash.Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.SPACELAB])
+app = dash.Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.SPACELAB],assets_folder='assets')
 
 VALID_USERNAME_PASSWORD_PAIRS = {
     'admin': '123456',
@@ -78,6 +78,7 @@ app.layout = dbc.Container([
     )
 ], fluid=True)
 
+app.css.append_css
 
 @app.callback(
     Output("procurement-collapse", "is_open"),
