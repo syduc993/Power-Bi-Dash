@@ -6,15 +6,15 @@ import dash_auth
 
 app = dash.Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.SPACELAB],assets_folder='assets')
 
-VALID_USERNAME_PASSWORD_PAIRS = {
-    'admin': '123456',
-    'procurement': 'password'
-}
+# VALID_USERNAME_PASSWORD_PAIRS = {
+#     'admin': '123456',
+#     'procurement': 'password'
+# }
 
-auth = dash_auth.BasicAuth(
-    app,
-    VALID_USERNAME_PASSWORD_PAIRS
-)
+# auth = dash_auth.BasicAuth(
+#     app,
+#     VALID_USERNAME_PASSWORD_PAIRS
+# )
 
 
 SIDEBAR_STYLE = {
